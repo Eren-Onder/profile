@@ -1,14 +1,13 @@
 body {
-  background-color: #282c34;
+  background-color: #f5f7fa;
 }
 
 .skillheader {
-  text-align: center;
-  color: white;
+  text-align: left;
+  color: rgb(10, 5, 5);
   font-family: "Ruda", sans-serif;
 }
 
 .contact {
-  text-align: center;
   color: antiquewhite;
 }

@@ -8,8 +8,9 @@ class Banner extends Component {
         return (
             <section className="container-banner">
 
-                    <a href="#home"></a>
-                    <h1> Hi! I'm Eren ÖNDER </h1>
+                    
+                    <h1> Output Format </h1>
+                    <h3>For every PAN number listed, print YES if it is valid and NO if it isn't.</h3>
                    
                     
                     

@@ -5,13 +5,16 @@ import './css/Main.css'
 class Navbar extends Component {
     render() {
         return (
-            <nav className="navbar">
-                <a href="#home"><i className="fa fa-fw fa-home"></i>Home</a>
-                <a href="#container-about"><i className="fa fa-fw fa-user"></i>About</a>
-                <a href="#skillheader"><i className="fa fa-fw fa-xing"></i>Skills</a>
-                <a id="protofolio-link" href="#Portfolio"><i className="fa fa-github-alt"></i>Projects</a> 
-                <a href="#contactnav"><i className="fa fa-fw fa-envelope"></i>Contact</a>
-            </nav>
+            <div>
+            <h1>Constraints</h1>
+            <ul type ="disc">
+                <li>1 &le; <i>N</i> &le; 10 </li>
+                <li>Each char is an uppercase letter,i.e.,<i><b>char</b></i>&isin;['<i><b>A</b></i>','<i><b>Z</b></i>'].</li>
+                <li>Each digit lies between 0 and 9,i.e.,<i><b>digit</b></i>&isin;[<b>0,9</b>]</li>
+                <li>The length of the PAN number is always 10,i.e.,<i><b>lenght(PAN)=10</b></i></li>
+                <li>Every character in PAN is either char or digit satisfying the above constraints.</li>
+            </ul>
+            </div>
         )
     }
 }
